@@ -1,0 +1,123 @@
+html{
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    min-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: #777777;
+}
+
+a{
+    color: #609;
+    text-decoration: none;
+}
+
+#header{
+position: relative;
+padding: 20px 20px 0 23px;
+border-bottom: 0.5px solid lightgrey;
+}
+
+#unit{
+    margin-top: 10px;
+    padding-left: 164px;
+    max-width: 630px;
+}
+
+#unit h3{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+}
+
+
+#logo{
+    width: 90px;
+    margin: 0px 40px 0 0;
+}
+
+#search-wrapper{
+    position: absolute;
+    top: 29px;
+    min-width: 650px;
+    border: 2px solid blue;
+    padding: 8px 0 8px 5px;
+    border: solid 0.5px lightgrey;
+    margin: -20px 0 0 -10px;
+    border-radius: 50px;
+}
+
+#search-wrapper button, .accordion button{
+    border: 0;
+    cursor:pointer;
+}
+
+input ::placeholder{
+
+    color: #333;
+
+}
+
+input{
+
+    padding: 0 0 0 15px;
+    height: 30px;
+    border: 0;
+    font-size: 18px;
+    width: 80%;
+
+}
+
+.fa fa-search{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+div#menu{
+    padding-left: 120px;
+}
+
+#header #menu ul{
+
+padding: 0px 0px 0px 0px;
+margin: 30px 0 0px 0;
+
+}
+
+#header #menu ul li{
+    font-size: 13px;
+    text-align: center;
+    height: 30px;
+    min-width: 55px;
+    list-style: none;
+    display:inline-block;
+}
+
+#header #menu ul li:nth-child(6){
+   
+margin-right: 220px;
+
+}
+
+#header #menu ul a{
+
+    color: #777;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#header #menu ul a:first-child{
+
+color:#1A73E8;
+
+}
+
+#header #menu ul li:first-child{
+
+font-weight: bold;
+border-bottom: 3px solid #1A73E8;
+
+}
